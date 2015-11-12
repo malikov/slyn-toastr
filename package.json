@@ -1,6 +1,6 @@
 {
   "name": "slyn-toastr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "slyn-toastr",
   "main": "lib/index.js",
   "keywords": [
