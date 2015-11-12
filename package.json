@@ -1,0 +1,27 @@
+{
+  "name": "slyn-toastr",
+  "version": "0.0.1",
+  "description": "slyn-toastr",
+  "main": "lib/index.js",
+  "keywords": [
+    "slyn-toastr"
+  ],
+  "homepage": "https://github.com/malikov/slyn-toastr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malikov/slyn-toastr"
+  },
+  "author": {
+    "name": "Vincent Maliko",
+    "email": "malikovincent@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "q": "~1.4.1",
+    "underscore": "~1.8.3",
+    "slyn-core-dust-base-view": "^0.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/malikov/slyn-toastr/issues"
+  }
+}

@@ -1,0 +1,5 @@
+<!-- this is the template of the toastr view -->
+<p>
+	{message}
+</p>
+<i class="close icon ion-ios-close-empty"></i>

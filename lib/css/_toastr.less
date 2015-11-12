@@ -1,0 +1,56 @@
+@import (reference) "_elements.less";
+
+.toastr {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    position: fixed;
+    
+    
+    left: 0;
+    right: 0;
+
+    font-size: 18px;
+    height: 60px;
+    line-height: 40px;
+    z-index: 9999;
+    padding: 10px;
+    .transition(0.3s, ease-out);
+    
+    i.close{
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 0;
+        text-shadow: none;
+        opacity: 1;
+        top: 10px;
+        position: absolute;
+        right: 20px;
+    }
+
+    &.top{
+        top: 0;
+        .transform(translate3d(0, -60px, 0));
+    }
+
+    &.bottom{
+        bottom: 0;
+        .transform(translate3d(0, -60px, 0));
+    }
+
+    &.show{
+        .transform(translate3d(0, 0, 0));
+    }
+
+    &.error {
+        background: #f76160;
+    }
+
+    &.success {
+        background: #7CD5BF;
+    }
+
+    &.info, &.loader {
+        background: #ef617a;
+    }
+}
