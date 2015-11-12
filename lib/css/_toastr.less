@@ -17,6 +17,17 @@
     padding: 10px;
     .transition(0.3s, ease-out);
     
+    &.loader{
+        width:200px;
+        margin:0 auto;
+        background: #ffffff;
+        color: #ef617a;
+        
+        i.close{
+            display:none;
+        }
+    }
+    
     i.close{
         color: #ffffff;
         font-size: 40px;
@@ -50,7 +61,7 @@
         background: #7CD5BF;
     }
 
-    &.info, &.loader {
+    &.info{
         background: #ef617a;
     }
 }
