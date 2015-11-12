@@ -18,13 +18,21 @@
     .transition(0.3s, ease-out);
     
     &.loader{
-        width:200px;
-        margin:0 auto;
+        width: 250px;
+        margin: 0 auto;
         background: #ffffff;
         color: #ef617a;
+        .box-shadow(0px 5px 18px rgba(0, 0, 0, 0.15));
+        .border-radius(0px,0px, 5px, 5px);
+        animation: 0.3s cubic-bezier(0.19, 1, 0.98, 1) 0s normal none 1 running dialog-slide-down;
+        background: #FCFCFC linear-gradient(#FFF, #FAFAFA 30%, #FAFAFA 80%, #F9F9F9 95%) repeat scroll 0% 0%;
         
         i.close{
             display:none;
+        }
+        
+        &.show{
+            .transform(translate3d(0, -7px, 0));
         }
     }
     
